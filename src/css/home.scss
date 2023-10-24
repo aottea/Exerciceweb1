@@ -1,0 +1,138 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  margin: 5%;
+}
+
+.image {
+  padding-top: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/public/img/image-product-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.container{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2{
+  padding-bottom: 20px;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: hsl(212, 21%, 14%);
+}
+
+p{
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  line-height: 25px;
+}
+
+.btn{
+  margin-left: 10%;
+  margin-top: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+
+.prix{
+  color: hsl(158, 36%, 37%);
+}
+
+button{
+  margin-bottom: 20px;
+}
+
+.reduc{
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-size: 35px;
+}
+
+.origine{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 15px;
+}
+
+.btn:hover{
+  background-color: hsl(159, 26%, 32%);
+}
+
+@media (min-width: 860px){
+
+  .card{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+
+  .image {
+    padding-top: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("/public/img/image-product-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  h1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  h2{
+    padding-bottom: 40px;
+  }
+
+  p{
+    padding-bottom: 40px;
+  }
+
+  .btn{
+    margin-top: 20px;
+  }
+}
+
+
+
